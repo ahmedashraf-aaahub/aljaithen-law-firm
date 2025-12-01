@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الجعيثن للمحاماة | اتصل بنا</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ======================= 1. شريط التنقل (Header) ======================= -->
+    <header id="header" class="sub-page-header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="logo_aljaithen.png" alt="الجعيثن للمحاماة" class="logo-img">
+            </a>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="services.html">خدماتنا</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="contact.html" class="active">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ======================= 2. قسم عنوان الصفحة (Page Title) ======================= -->
+        <section class="page-title-section">
+            <div class="container" data-aos="fade-up">
+                <h1>تواصل مع مستشارك القانوني</h1>
+                <p>نحن جاهزون للاستماع إلى قضيتك والرد على استفساراتك.</p>
+            </div>
+        </section>
+
+        <!-- ======================= 3. قسم نموذج الاتصال والمعلومات ======================= -->
+        <section id="contact-form-info" class="contact-form-info-section">
+            <div class="container">
+                <div class="contact-grid-wrapper">
+                    <div class="contact-form-block" data-aos="fade-right">
+                        <h2>أرسل رسالتك إلينا</h2>
+                        <form action="mailto:info@yourlawfirm.sa" method="POST" enctype="text/plain">
+                            <input type="text" name="Name" placeholder="الاسم كاملاً" required>
+                            <input type="email" name="Email" placeholder="البريد الإلكتروني" required>
+                            <input type="tel" name="Phone" placeholder="رقم الهاتف" required>
+                            <select name="Service" required>
+                                <option value="" disabled selected>نوع الاستشارة المطلوبة</option>
+                                <option value="Commercial">قانون تجاري</option>
+                                <option value="Labor">قانون عمالي</option>
+                                <option value="Real Estate">قانون عقاري</option>
+                                <option value="Other">أخرى</option>
+                            </select>
+                            <textarea name="Message" placeholder="صف قضيتك أو استفسارك بالتفصيل..." rows="6" required></textarea>
+                            <button type="submit" class="btn-primary">إرسال الرسالة</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info-block" data-aos="fade-left">
+                        <h2>بيانات التواصل</h2>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>العنوان الرئيسي</h4>
+                                <p>المملكة العربية السعودية، [المدينة]، [الشارع]</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>رقم الهاتف</h4>
+                                <p>+966 500 000 000</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>البريد الإلكتروني</h4>
+                                <p>info@yourlawfirm.sa</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Placeholder Map -->
+                        <div class="map-placeholder">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115814.92815777494!2d46.726880299999995!3d24.71355175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0x1ba964c1fdfd8e52!2z2KfZhNiz2Ysg2YjZhNin2Kcg2KfZhNm32YQg2KfZhNmI2YPZitiMINin2YTZhdmI2YQg2KfZhNiz2YIg2KfZhNi02Yog2YTYs9mK2YIg2YTYs9mI2Y_ZhdiM!5e0!3m2!1sar!2ssa!4v1687770000000!5m2!1sar!2ssa" width="100%" height="250" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======================= 4. التذييل (Footer) ======================= -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 الجعيثن للمحاماة والاستشارات القانونية. جميع الحقوق محفوظة.</p>
+                <div class="social-links">
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
